@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply for Trip</title>
+  <link rel ="stylesheet" type="text/css" href="css/responsive.css">
+
+</head>
+<body>
+  <div class="header">
+    <h1>Trip to Pakistan</h1>
+  </div>
+
+  <div class="row">
+    <div class="col-2 menu">
+      <ul>
+      <a href = "index.html"><li>Main Page</li></a>
+      <a href = "page2.html"><li>Places</li></a>
+      <a href = "applyforit.html"><li>Apply For It</li>
+
+      </ul>
+    </div>
+  <div class="main">
+         <h2>Fill in the Application form below </h2>
+         <form action ="#" name="myForm" onsubmit="return(validate());">
+           <label for="Name">Name:</label>
+           <input type ="text" name="Name">
+           <br><br>
+
+           <label for ="Email">Email:</label>
+           <input type="email" id="email" name="myGeeks"
+         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$">
+           <br><br>
+
+           <label for = "postcode">postcode:</label>
+           <input type = "text" name="postcode"
+               pattern="[A-Za-z]{1,2}[0-9A-Za-z]?[0-9][ABD-HJLNP-UW-Zabd-hjlnp-uw-z]{2}">
+           <br><br>
+
+
+
+
+            <input type = "submit" value ="submit"/>
+            <body onload="onsubmit.alert('Your Application has been submitted')";>
+
+
+        </form>
+
+</body>
+</html>
